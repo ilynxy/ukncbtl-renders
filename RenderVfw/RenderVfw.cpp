@@ -57,7 +57,7 @@ static ScreenModeReference[] =
     {  640,  288, PrepareScreenCopy,     NULL },  // Dummy record for absent mode 0
     {  640,  288, PrepareScreenCopy,        _T("640 x 288 Standard") },
     {  640,  576, PrepareScreenUpscale2,    _T("640 x 576 Intrlaced") },
-	{  640,  576, PrepareScreenUpscale2d,   _T("640 x 576 Doubled") },
+    {  640,  576, PrepareScreenUpscale2d,   _T("640 x 576 Doubled") },
     {  640,  432, PrepareScreenUpscale,     _T("Upscaled to 1.5") },
     {  960,  576, PrepareScreenUpscale3,    _T("960 x 576 Interlaced") },
     {  960,  720, PrepareScreenUpscale4,    _T("960 x 720, 4:3") },
